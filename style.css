@@ -5,6 +5,12 @@
   --font: bs-font-sans-serif;
 }
 
+@media (max-width: 450px) {
+  img {
+    display: none;
+  }
+}
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);

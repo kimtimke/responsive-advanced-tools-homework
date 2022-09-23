@@ -1,14 +1,8 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #b5c588;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font: bs-font-sans-serif;
-}
-
-@media (max-width: 450px) {
-  img {
-    display: none;
-  }
 }
 
 body {
@@ -112,4 +106,22 @@ p {
 
 .navbar-brand {
   margin-left: 73px;
+}
+
+@media (max-width: 450px) {
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 572px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 572px) {
+  h3 {
+    font-size: 18px;
+  }
 }
